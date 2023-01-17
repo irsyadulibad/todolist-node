@@ -1,0 +1,19 @@
+<article>
+    <header>Add new Todo</header>
+
+    <form action="/todo" method="post">
+        <label>
+            Todo Name
+            <input required type="text" name="name" id="name" autofocus>
+        </label>
+        <div class="grid">
+            <fieldset>
+                <label for="done">
+                    <input type="checkbox" name="is_done" id="done" role="switch">
+                    Done
+                </label>
+            </fieldset>
+            <button type="submit">Add</button>
+        </div>
+    </form>
+</article>

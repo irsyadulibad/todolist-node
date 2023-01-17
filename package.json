@@ -1,0 +1,30 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Simple TodoList App",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js",
+    "migrate": "node ./database/migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "node"
+  ],
+  "author": "irsyadulibad",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.2.0",
+    "@hapi/vision": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "knex": "^2.4.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

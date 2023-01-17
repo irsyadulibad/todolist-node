@@ -1,0 +1,19 @@
+<article>
+    <header>Edit Todo</header>
+
+    <form action="/todo/<%= todo.id %>" method="post">
+        <label>
+            Todo Name
+            <input required type="text" name="name" id="name" value="<%= todo.name %>" autofocus>
+        </label>
+        <div class="grid">
+            <fieldset>
+                <label for="done">
+                    <input type="checkbox" name="is_done" id="done" role="switch" <%= (todo.is_done) ? 'checked' : '' %>>
+                    Done
+                </label>
+            </fieldset>
+            <button type="submit">Edit</button>
+        </div>
+    </form>
+</article>

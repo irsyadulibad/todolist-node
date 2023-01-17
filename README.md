@@ -3,6 +3,7 @@ Simple TodoList Application Using Node + Hapi
 
 ## Requirements
 - NodeJS 16 or later
+- MySQL
 
 ## Installation & Setup
 - ### Clone this repo

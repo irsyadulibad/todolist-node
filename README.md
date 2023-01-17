@@ -2,7 +2,7 @@
 Simple TodoList Application Using Node + Hapi
 
 ## Requirements
-- NodeJS 16 or fewer
+- NodeJS 16 or later
 
 ## Installation & Setup
 - ### Clone this repo
